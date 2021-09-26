@@ -1,0 +1,103 @@
+.product {
+  position: relative;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid $primary-color;
+  border-radius: 10px;
+  overflow: hidden;
+  .product__img img {
+    width: 100%;
+  }
+
+  .product__rating {
+    display: flex;
+    .product__star {
+      .icon {
+        width: 25px;
+        height: 25px;
+        fill: gray;
+      }
+      &.star--on .icon {
+        fill: gold;
+      }
+    }
+  }
+
+  .product__price {
+    display: flex;
+    align-items: center;
+    &.product__price--offer {
+      .product__price-normal {
+        text-decoration: line-through;
+      }
+      .product__price-sale {
+        color: red;
+      }
+      .product__price-discount {
+        padding: 2px 5px;
+        background-color: #ff0000cc;
+        color: white;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .product__tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: #0000004d;
+    opacity: 0;
+    transition: all 0.8s ease;
+    .product__tools-group {
+      display: flex;
+      .product__watch {
+        margin: 0 5px;
+        padding: 10px;
+        align-self: center;
+        background-color: white;
+        border-radius: 50%;
+        box-shadow: 3px 3px 5px black;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        .icon {
+          width: 20px;
+          height: 20px;
+          display: block;
+          fill: black;
+        }
+        &:hover {
+          background-color: $primary-color;
+          .icon {
+            fill: white;
+          }
+        }
+      }
+    }
+
+    .itemCounter {
+      position: absolute;
+      bottom: 25%;
+      left: 50%;
+      transform: translateX(-50%);
+      .itemCounter__number {
+        background-color: white;
+      }
+    }
+  }
+  &:hover {
+    .product__tools {
+      opacity: 1;
+    }
+    .product__tools-group,
+    .product__counter {
+      animation: fadeInBottom 0.8s ease;
+    }
+  }
+}

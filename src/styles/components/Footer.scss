@@ -1,0 +1,62 @@
+.footer {
+  padding: 30px;
+  background-color: $dark-color;
+  color: rgb(204, 204, 204);
+  @include sm-screen {
+    padding: 10px;
+  }
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    @include sm-screen {
+      display: block;
+      text-align: center;
+    }
+    .footer__logo-img {
+      width: 70px;
+    }
+    .footer__logo-name {
+      font-size: 1.5rem;
+    }
+  }
+
+  .footer__menu {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      @include sm-screen {
+        display: block;
+      }
+    }
+    @include sm-screen {
+      text-align: center;
+      ul {
+        display: block;
+        li {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .footer__social {
+    ul {
+      display: flex;
+      li .icon {
+        width: 25px;
+        height: 25px;
+        fill: white;
+        transition: all 0.5s ease;
+        &:hover {
+          fill: $primary-color;
+        }
+      }
+    }
+    @include sm-screen {
+      text-align: center;
+      ul {
+        display: block;
+      }
+    }
+  }
+}

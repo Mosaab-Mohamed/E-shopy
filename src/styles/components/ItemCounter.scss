@@ -1,0 +1,16 @@
+.itemCounter {
+  display: flex;
+  align-self: center;
+  width: fit-content;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 2px;
+  .itemCounter__plus,
+  .itemCounter__minus {
+    padding: 5px 5px;
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+  }
+  .itemCounter__number {
+    padding: 5px 30px;
+  }
+}

@@ -1,0 +1,26 @@
+.messageModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  left: 30%;
+  bottom: 30px;
+  width: 40%;
+  padding: 10px;
+  border-left: 3px solid $primary-color;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  box-shadow: 3px 2px 5px grey;
+  animation: fadeInBottom 0.5s ease;
+  @include sm-screen {
+    left: 5%;
+    width: 90%;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    fill: $primary-color;
+  }
+}

@@ -1,0 +1,105 @@
+.productModal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000ba;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .productModal__container {
+    width: 80%;
+    height: 80vh;
+    overflow: auto;
+    background-color: white;
+    border-radius: 5px;
+    animation: fadeInTop 0.5s ease;
+    &.closed {
+      animation: fadeOutTop 0.5s ease;
+    }
+    .productModal__top {
+      padding: 10px;
+      border-bottom: 1px solid rgb(195, 195, 195);
+      .icon-clear {
+        width: 25px;
+        height: 25px;
+        fill: gray;
+        cursor: pointer;
+      }
+    }
+
+    .productModal__body {
+      .productModal__image {
+        img {
+          width: 100%;
+        }
+      }
+      .productModal__info {
+        .productModal__rating {
+          display: flex;
+          .product__star {
+            .icon {
+              width: 25px;
+              height: 25px;
+              fill: gray;
+            }
+            &.star--on .icon {
+              fill: gold;
+            }
+          }
+        }
+
+        .productModal__price {
+          display: flex;
+          &.productModal__price--offer {
+            .productModal__price-normal {
+              text-decoration: line-through;
+            }
+            .productModal__price-sale {
+              color: red;
+            }
+            .productModal__price-discount {
+              padding: 2px 5px;
+              background-color: #ff0000cc;
+              color: white;
+              border-radius: 10px;
+            }
+          }
+        }
+        .productModal__description {
+          color: gray;
+        }
+      }
+    }
+
+    .productModal__bottom {
+      display: flex;
+      justify-content: center;
+      .productModal__addToCart {
+        padding: 15px 25px;
+        margin: 0 50px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        color: white;
+        background-color: $primary-color;
+        transition: all 0.5s ease;
+        &:hover {
+          background-color: gray;
+        }
+      }
+
+      .productModal__wishlist {
+        display: flex;
+        align-items: center;
+      }
+
+      .itemCounter {
+        margin: 0 20px;
+      }
+    }
+  }
+}

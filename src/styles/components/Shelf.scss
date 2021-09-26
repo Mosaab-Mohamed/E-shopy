@@ -1,0 +1,41 @@
+.shelf {
+  .shelf__header {
+    text-align: center;
+    &::after {
+      content: "";
+      width: 10%;
+      height: 1px;
+      margin: auto;
+      display: block;
+      background-color: $primary-color;
+    }
+  }
+
+  .swiper-container {
+    padding: 50px 0 40px 0;
+    .swiper-button-next,
+    .swiper-button-prev {
+      position: absolute;
+      top: 30px;
+      width: 35px;
+      height: 35px;
+      border: 1px solid rgb(160, 160, 160);
+      border-radius: 50%;
+      &:hover {
+        border-color: $primary-color;
+        &::after {
+          color: $primary-color;
+        }
+      }
+      &.swiper-button-prev {
+        right: 60px;
+        left: auto;
+      }
+      &::after {
+        font-size: 0.7rem;
+        color: rgb(75, 75, 75);
+        font-weight: bold;
+      }
+    }
+  }
+}

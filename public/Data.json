@@ -1,0 +1,279 @@
+[
+  {
+    "id": 1,
+    "img_url": "./images/product-1.jpg",
+    "name": "Manjo",
+    "category": "fruits",
+    "rating": 3,
+    "price": {
+      "normal": 5,
+      "offer": { "sale": 4, "discount": "20%" }
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": true,
+    "new": false,
+    "popular": false
+  },
+
+  {
+    "id": 2,
+    "img_url": "./images/product-2.jpg",
+    "name": "Fresh Orange Juice",
+    "category": "juice",
+    "rating": 5,
+    "price": {
+      "normal": 5,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": true,
+    "new": false,
+    "popular": false
+  },
+  {
+    "id": 3,
+    "img_url": "./images/product-3.jpg",
+    "name": "Almonds",
+    "category": "snacks",
+    "rating": 4,
+    "price": {
+      "normal": 20,
+      "offer": { "sale": 19, "discount": "5%" }
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": true,
+    "new": false,
+    "popular": false
+  },
+  {
+    "id": 4,
+    "img_url": "./images/product-4.jpg",
+    "name": "Chipsy",
+    "category": "snacks",
+    "rating": 4,
+    "price": {
+      "normal": 3,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": true,
+    "new": false,
+    "popular": false
+  },
+  {
+    "id": 5,
+    "img_url": "./images/product-5.jpg",
+    "name": "Hazelnut",
+    "category": "snacks",
+    "rating": 4,
+    "price": {
+      "normal": 6,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": true,
+    "new": false,
+    "popular": false
+  },
+  {
+    "id": 6,
+    "img_url": "./images/product-6.jpg",
+    "name": "Strawberry",
+    "category": "fruits",
+    "rating": 3,
+    "price": {
+      "normal": 3,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": true,
+    "new": false,
+    "popular": false
+  },
+  {
+    "id": 7,
+    "img_url": "./images/product-7.jpg",
+    "name": "Lemon",
+    "category": "vegetables",
+    "rating": 4,
+    "price": {
+      "normal": 2,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": true,
+    "popular": false
+  },
+  {
+    "id": 8,
+    "img_url": "./images/product-8.jpg",
+    "name": "Asian Orange",
+    "category": "fruits",
+    "rating": 5,
+    "price": {
+      "normal": 10,
+      "offer": {
+        "sale": 7,
+        "discount": "22%"
+      }
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": true,
+    "popular": false
+  },
+  {
+    "id": 9,
+    "img_url": "./images/product-9.jpg",
+    "name": "Salted Cashews",
+    "category": "snacks",
+    "rating": 5,
+    "price": {
+      "normal": 18,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": true,
+    "popular": false
+  },
+  {
+    "id": 10,
+    "img_url": "./images/product-10.jpg",
+    "name": "Orange",
+    "category": "fruits",
+    "rating": 4,
+    "price": {
+      "normal": 4,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": true,
+    "popular": false
+  },
+  {
+    "id": 11,
+    "img_url": "./images/product-11.jpg",
+    "name": "Punjabi Tadka",
+    "category": "snacks",
+    "rating": 2,
+    "price": {
+      "normal": 12,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": true,
+    "popular": false
+  },
+  {
+    "id": 12,
+    "img_url": "./images/product-12.jpg",
+    "name": "Ringos",
+    "category": "snacks",
+    "rating": 4,
+    "price": {
+      "normal": 2,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": true,
+    "popular": false
+  },
+  {
+    "id": 13,
+    "img_url": "./images/product-13.jpg",
+    "name": "Peache Juice",
+    "category": "juice",
+    "rating": 5,
+    "price": {
+      "normal": 13,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": false,
+    "popular": true
+  },
+  {
+    "id": 14,
+    "img_url": "./images/product-14.jpg",
+    "name": "Tomato",
+    "category": "vegetables",
+    "rating": 5,
+    "price": {
+      "normal": 1.5,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": false,
+    "popular": true
+  },
+  {
+    "id": 15,
+    "img_url": "./images/product-15.jpg",
+    "name": "Caramel Tofy",
+    "category": "snacks",
+    "rating": 4,
+    "price": {
+      "normal": 9,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": false,
+    "popular": true
+  },
+  {
+    "id": 16,
+    "img_url": "./images/product-16.jpg",
+    "name": "Crispy Puffs",
+    "category": "snacks",
+    "rating": 5,
+    "price": {
+      "normal": 40,
+      "offer": {
+        "sale": 20,
+        "discount": "50%"
+      }
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": false,
+    "popular": true
+  },
+  {
+    "id": 17,
+    "img_url": "./images/product-17.jpg",
+    "name": "Pomegranate Juice",
+    "category": "juice",
+    "rating": 5,
+    "price": {
+      "normal": 14,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": false,
+    "popular": true
+  },
+  {
+    "id": 18,
+    "img_url": "./images/product-18.jpg",
+    "name": "Cocktail Juice",
+    "category": "juice",
+    "rating": 3,
+    "price": {
+      "normal": 8,
+      "offer": null
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco",
+    "bestSelling": false,
+    "new": false,
+    "popular": true
+  }
+]

@@ -1,0 +1,41 @@
+.shop-banners {
+  background-color: #f3f3f3;
+
+  .shop-banners__card {
+    position: relative;
+    height: 250px;
+    background-size: cover;
+    background-color: #00000061;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    &.shop-banners__card--vertical {
+      height: 500px;
+    }
+
+    .shop-banners__overlay {
+      padding: 15px;
+      .shop-banners__name {
+        margin-bottom: 30px;
+        color: white;
+        font-weight: normal;
+        font-style: italic;
+      }
+
+      .shop-banners__button {
+        padding: 10px 15px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        &:hover {
+          background-color: $primary-color;
+          border-color: $primary-color;
+          transform: translateX(10px);
+        }
+      }
+    }
+  }
+}

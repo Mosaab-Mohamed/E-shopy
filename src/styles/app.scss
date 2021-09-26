@@ -1,0 +1,22 @@
+@import "./base/normalize";
+@import "./base/breakpoints";
+@import "./base/fonts";
+@import "./base/variables";
+@import "./base/animations";
+
+@import "./components/Navbar.scss";
+@import "./components/Banner.scss";
+@import "./components/Product.scss";
+@import "./components/CartBtn.scss";
+@import "./components/WishlistBtn.scss";
+@import "./components/ItemCounter.scss";
+@import "./components/Shelf.scss";
+@import "./components/MessageModal.scss";
+@import "./components/ProductModal.scss";
+@import "./components/Cart.scss";
+@import "./components/Wishlist.scss";
+@import "./components/Shop.scss";
+@import "./components/ContactUs.scss";
+@import "./components/About.scss";
+@import "./components/Footer.scss";
+@import "./components/ShopBanners.scss";

@@ -1,0 +1,78 @@
+.shop {
+  .shop__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    color: rgb(80, 80, 80);
+  }
+
+  .shop__filter {
+    .shop__filter-header {
+      position: relative;
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(218, 218, 218);
+      &::after {
+        content: "";
+        width: 30%;
+        height: 2px;
+        display: block;
+        position: absolute;
+        bottom: -2px;
+        background-color: $primary-color;
+      }
+      .icon {
+        width: 25px;
+        height: 25px;
+        fill: $primary-color;
+      }
+    }
+
+    .shop__filter__method {
+      border: 1px solid rgb(209, 209, 209);
+      border-radius: 5px;
+      .shop__filter__method-name {
+        border-bottom: 1px solid rgb(209, 209, 209);
+      }
+
+      .shop__filter__method-list {
+        .shop__filter__method-item {
+          border-bottom: 1px solid rgb(209, 209, 209);
+          cursor: pointer;
+          transition: all 0.5s ease;
+          &:hover,
+          &.active {
+            background-color: $primary-color;
+            color: white;
+          }
+        }
+        @include sm-screen {
+          display: flex;
+          justify-content: space-around;
+          .shop__filter__method-item {
+            border: none;
+          }
+        }
+      }
+
+      .shop__filter__method-form {
+        padding: 10px;
+        .shop__filter__method-field {
+          .shop__filter__method-input {
+            width: 90%;
+            padding: 10px;
+            display: block;
+            outline: none;
+            border: 1px solid rgb(202, 202, 202);
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+  }
+}
